@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>회원가입 페이지</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<form action="/member/signup" method="post">
+  <input type="text" name="id" placeholder="Id"/></br>
+  <input type="password" name="password" placeholder="Password"/><br/>
+  <input type="password" name="chkPassword" placeholder="CheckPassword"/></br>
+  <input type="text" name="username" placeholder="Username"/> <br/>
+  <input type="radio" name="gender"/>
+  <input type="email" name="email" placeholder="Email"/><br/>
+  <button>회원가입</button>
+</form>
+</body>
+</html>
